@@ -1,78 +1,180 @@
 body {
-	background-color: #DEDEDE;
-	font-family: Candara, Calibri, Opti
-	ma, sans-serif;
-	margin: 0px;
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	color: #818181;
 }
-
-header {
-	background-color: rgb(7, 105, 179);
-	margin: 0px;
-	padding: 5px;
-	text-align: center;
-	vertical-align: middle;
-	font-family: 'Arial', sans-serif;
-	color: #DEDEDE;
-	text-shadow: 1px 1px grey;
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #303030;
+	font-weight: 600;
+	margin-bottom: 30px;
 }
-
-nav {
-	background-color: #eeeeee;
+h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	color: #303030;
+	font-weight: 400;
+	margin-bottom: 30px;
 }
-nav ul {
-	top: 0;
-	left: 0;
-	width: 100%;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333333;
+.jumbotron {
+	background-color: #ffffff;
+	color: #303030;
+	padding: 100px 25px;
+	font-family: Montserrat, sans-serif;
 }
-nav li {
-	display: block;
-	float: left;
-	/*color: white;*/
-	color: #cfcfcf;
-	text-align: center;
-	padding: 14px 50px;
-	text-decoration: none;
-	cursor: pointer;
+.container-fluid {
+	padding: 60px 50px;
 }
-/* Change the link color to #111111 (black) on hover */
-nav li:hover {
-	background-color: #111111;
+.bg-grey {
+	background-color: #f6f6f6;
 }
-nav li:first-child {
-	/*margin-left: 50px;*/
-	/*margin-left: 5%;*/
+.bg-light-green {
+	background-color: #f2f8ec;
 }
-
-section {
-	margin-left: 80px;
-	margin-right: 80px;
-	margin-bottom: 80px;
+.logo-small {
+	color: #0769B3;
+	font-size: 50px;
 }
-button.text-button {
-	color: #4B6259;
-	font-weight: bold;
-	font-size: 12pt;
-	margin-right: 20px;
-	margin-left: 20px;
-	background-color: transparent;
+.logo {
+	color: #0769B3;
+	font-size: 200px;
+}
+.thumbnail {
+	padding: 0 0 15px 0;
 	border: none;
-	cursor: pointer;
-	outline: none;
-	/*background-repeat: no-repeat;*/
-	/*overflow: hidden;*/
+	border-radius: 0;
 }
-button.text-button.selected {
-	/*color: #7A988C;*/
-	border-bottom: 1px dotted;
+.thumbnail img {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
 }
-
-section {
-	margin-left: 80px;
-	margin-right: 80px;
-	margin-bottom: 80px;
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+	color: #0769B3;
+}
+.carousel-indicators li {
+	border-color: #0769B3;
+}
+.carousel-indicators li.active {
+	background-color: #0769B3;
+}
+.item h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	font-weight: 400;
+	font-style: italic;
+	margin: 70px 0;
+}
+.item span {
+	font-style: normal;
+}
+.panel {
+	border: 1px solid #0769B3;
+	border-radius:0 !important;
+	transition: box-shadow 0.5s;
+}
+.panel:hover {
+	box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+	border: 1px solid #0769B3;
+	background-color: #fff !important;
+	color: #0769B3;
+}
+.panel-heading {
+	color: #fff !important;
+	background-color: #0769B3 !important;
+	padding: 25px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.panel-footer {
+	background-color: white !important;
+}
+.panel-footer h3 {
+	font-size: 32px;
+}
+.panel-footer h4 {
+	color: #aaa;
+	font-size: 14px;
+}
+.panel-footer .btn {
+	margin: 15px 0;
+	background-color: #0769B3;
+	color: #fff;
+}
+.navbar {
+	margin-bottom: 0;
+	background-color: #0769B3;
+	z-index: 9999;
+	border: 0;
+	font-size: 12px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+	font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+	color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #0769B3 !important;
+	background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+footer .glyphicon {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #0769B3;
+}
+.slideanim {visibility:hidden;}
+.slide {
+	animation-name: slide;
+	-webkit-animation-name: slide;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	visibility: visible;
+}
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateY(70%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@-webkit-keyframes slide {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(70%);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0%);
+	}
+}
+@media screen and (max-width: 768px) {
+	.col-sm-4 {
+		text-align: center;
+		margin: 25px 0;
+	}
+	.btn-lg {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.logo {
+		font-size: 150px;
+	}
 }
