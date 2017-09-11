@@ -1,0 +1,77 @@
+/*body {
+	background-color: #DEDEDE;
+	font-family: Candara, Calibri, Optima, sans-serif;
+	margin: 0px;
+	min-height: 2000px;
+	padding-top: 70px;
+}*/
+
+/*header {
+	background-color: rgb(7, 105, 179);
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Arial', sans-serif;
+	color: #DEDEDE;
+	text-shadow: 1px 1px grey;
+}
+
+nav {
+	background-color: #eeeeee;\
+
+}
+nav ul {
+	top: 0;
+	left: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+nav li {
+	display: block;
+	float: left;
+	color: #cfcfcf;
+	text-align: center;
+	padding: 14px 50px;
+	text-decoration: none;
+	cursor: pointer;
+}*/
+/* Change the link color to #111111 (black) on hover */
+nav li:hover {
+	background-color: #111111;
+}
+nav li:first-child {
+	/*margin-left: 50px;*/
+	/*margin-left: 5%;*/
+}
+
+/*section {
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 80px;
+}
+button.text-button {
+	color: #4B6259;
+	font-weight: bold;
+	font-size: 12pt;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+button.text-button.selected {
+	border-bottom: 1px dotted;
+}
+
+section {
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 80px;
+}
+*/

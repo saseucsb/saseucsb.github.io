@@ -1,0 +1,181 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	color: #818181;
+}
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #303030;
+	font-weight: 600;
+	/* margin-bottom: 30px; */
+}
+h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	color: #303030;
+	font-weight: 400;
+	/* margin-bottom: 30px; */
+}
+.campus-point-img {
+	background-image: url("../assets/ucsb_campus_point.jpg");
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+.title-group h3::after {
+	content: ' ';
+	position: absolute;
+	top: 50%;
+	height: 2px;
+	width: 80px;
+	margin: 0 10px;
+	/* display: inline-block; */
+	/* zoom: 1; */
+}
+
+.subtitle {
+	color: #46A606;
+	font-size: 18px;
+}
+
+.sase-logo {
+    max-width: 60%;
+	height: auto;
+}
+.jumbotron {
+	background-color: #ffffff;
+	color: #303030;
+	padding: 100px 25px;
+	font-family: Montserrat, sans-serif;
+}
+.container-fluid {
+	padding: 60px 50px;
+}
+.bg-grey {
+	background-color: #f6f6f6;
+}
+.bg-light-green {
+	background-color: #f2f8ec;
+}
+
+.logo-small {
+	color: #0769B3;
+	font-size: 50px;
+}
+.logo {
+	color: #0769B3;
+	font-size: 200px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-color: #0769B3;
+	z-index: 9999;
+	border: 0;
+	font-size: 12px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+	font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+	color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #0769B3 !important;
+	background-color: #fff !important;
+	transition: 0.3s;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+footer .glyphicon {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #0769B3;
+}
+.slideanim {visibility:hidden;}
+.slide {
+	animation-name: slide;
+	-webkit-animation-name: slide;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	visibility: visible;
+}
+
+/* @media only screen and (max-width: 727px) {
+	margin: 15px auto 5px auto;
+	position: relative;
+	height: 2px;
+	width: 80px;
+	top: 0;
+	left: 0;
+	content: ' ';
+	display: block;
+} */
+
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateY(70%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@-webkit-keyframes slide {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(70%);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0%);
+	}
+}
+@media screen and (max-width: 768px) {
+	.col-sm-4 {
+		text-align: center;
+		margin: 25px 0;
+	}
+	.btn-lg {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.logo {
+		font-size: 150px;
+	}
+}
+
+
+/* CSS for WRC 2018 */
+.bg {
+	background-image: url("../assets/ucsb_campus_point.jpg");
+	height: 100%;
+	position: relative;
+	opacity: 0.65;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+}
