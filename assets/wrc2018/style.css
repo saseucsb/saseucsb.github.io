@@ -1,0 +1,24 @@
+.jumbotron {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.6),
+		rgba(0, 0, 0, 0.6)
+    ), url("banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0;
+}
+
+.jumbotron-hr {
+	width: 30% !important;
+	border-top: 10px solid white;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.bg-schedule {
+	background-color: rgb(61, 155, 233);
+}
+
+.bg-accomodations {
+	background-color: rgb(213, 229, 244);
+}
