@@ -86,6 +86,7 @@ h4 {
 	border-radius: 0;
 	font-family: Montserrat, sans-serif;
 }
+/*
 .navbar li a, .navbar .navbar-brand {
 	color: #fff !important;
 }
@@ -97,12 +98,12 @@ h4 {
 .navbar-default .navbar-toggle {
 	border-color: transparent;
 	color: #fff !important;
-}
-footer .glyphicon {
+}*/
+/*footer .glyphicon {
 	font-size: 20px;
 	margin-bottom: 20px;
 	color: #0769B3;
-}
+}*/
 .slideanim {visibility:hidden;}
 .slide {
 	animation-name: slide;
