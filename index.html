@@ -17,6 +17,8 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <!-- Load our CSS -->
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />	
   <!-- Favicon -->
   <link rel="apple-touch-icon" href="assets/favicon/apple-icon-152x152.png">
   <link rel="icon" sizes="16x16 32x32" href="assets/favicon/favicon.ico">
@@ -25,7 +27,36 @@
 <body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 <!-- Navigation bar -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="https://saseucsb.com/">
+					<img src="assets/sase-logo.png" alt="SASE UCSB" height="30">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#about">ABOUT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#officers">OFFICERS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#calendar">CALENDAR</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSel7M_r1sIVdZSoM03GrQ8G4WaXS1fAu4JHVb7RFRDGb8gjHg/viewform">SIGN UP</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="wrc2018.html">WEST REGIONAL CONFERENCE 2018</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+<!--nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -47,7 +78,7 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav-->
 
 <!-- <div class="title-group jumbotron text-center"> -->
 <div class="jumbotron text-center bg-light-green">
@@ -162,7 +193,7 @@
   </div>
 </div>
 
-<!-- Container (Pricing Section) -->
+<!-- Container (Pricing Section)
 <div id="connect" class="container text-center">
   <h2>Connect With Us</h2>
   <div class="row">
@@ -183,13 +214,35 @@
     </div>
   </div>
 </div>
+-->
 
-<footer class="container-fluid text-center bg-light-green">
-  <a href="#home" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-  <p>Website made by <a href="https://www.linkedin.com/in/alexanderwu7/" title="Alex is so cool!">Alexander Wu</a></p>
-  <p>© 2017</p>
+<!--footer-->
+<footer>
+<div class="bg-dark text-white">
+				<div class="container py-4">
+					<div class="row">
+						<div class="col-4">
+							<a class="text-white text-underline" href="https://saseucsb.com/"><strong>Back to SASE UCSB</strong></a><br />
+							<br />
+							<strong>2018 SASE West Regional Conference</strong><br />
+							February 10, 2018<br />
+						</div>
+						<div class="col-4">
+							<strong>University of California, Santa Barbara</strong><br />
+							Corwin Pavilion<br />
+							<br />
+							<a class="btn btn-primary" href="https://www.google.com/maps/place/Corwin+Pavillion/@34.4116289,-119.8491773,17z/data=!3m1!4b1!4m5!3m4!1s0x80e93f6dfefa0271:0x55c533306679b4f6!8m2!3d34.4116245!4d-119.8469886" target="_blank">Directions</a>
+						</div>
+						<div class="col-4">
+							<strong>Connect with Us</strong><br />
+							<i class="fa fa-facebook" aria-hidden="true"></i> <a class="text-white" href="https://www.facebook.com/ucsb.sase/" target="_blank">Facebook (ucsb.sase)</a><br />
+							<i class="fa fa-instagram" aria-hidden="true"></i> <a class="text-white" href="https://www.instagram.com/saseucsb/" target="_blank">Instagram (@saseucsb)</a><br />
+							<br />
+							Copyright &copy; 2017 SASE UCSB.
+						</div>
+					</div>
+				</div>
+</div>
 </footer>
 
 <!-- Load scripts after page has rendered -->
