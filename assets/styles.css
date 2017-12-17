@@ -6,7 +6,7 @@ body {
 	font: 400;
 	line-height: 1.8;
 	color: #818181;
-}
+	}
 p {
 	color: #818181;
 }
@@ -93,6 +93,7 @@ h4 {
 	padding: 70px 25px;
 	font-family: Montserrat, sans-serif;
 	height: 850px;
+
 }
 
 .container-fluid {
@@ -211,7 +212,8 @@ h4 {
 		-webkit-transform: translateY(0%);
 	}
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 985px) {
 	.col-sm-4 {
 		text-align: center !important;
 		margin: auto;
@@ -243,6 +245,9 @@ h4 {
 @media screen and (max-width: 480px) {
 	.logo {
 		font-size: 150px;
+	}
+	.top-area {
+		height: 300px;
 	}
 }
 
