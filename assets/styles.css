@@ -88,12 +88,16 @@ h4 {
 	font-family: Montserrat, sans-serif;
 }
 .top-area {
-	background-color: #ffffff;
-	color: #303030;
-	padding: 70px 25px;
-	font-family: Montserrat, sans-serif;
-	height: 850px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
 
+.top-area:before {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-bottom: 56.25%;
 }
 
 .container-fluid {
@@ -106,9 +110,13 @@ h4 {
 .bg-light-green {
 	background-color: #f2f8ec;
 }
+
 .bg-cover {
 	background-image:  url('../assets/cover.png');
-	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto 1em;
+	width: 100%;
 }
 
 .logo-small {
@@ -228,9 +236,6 @@ h4 {
 		width: 100%;
 		margin-bottom: 35px;
 	}
-	.top-area {
-		height: 425px;
-	}
 	.col-sm-8 {
 		flex: 0 0 100%;
 		max-width: 100%;
@@ -246,11 +251,7 @@ h4 {
 	.logo {
 		font-size: 150px;
 	}
-	.top-area {
-		height: 300px;
-	}
 }
-
 
 /* CSS for WRC 2018 */
 .bg {
