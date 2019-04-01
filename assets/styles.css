@@ -73,6 +73,7 @@ h4 {
 }
 
 .subtitle {
+	margin: 0;
 	color: #46A606;
 	font-size: 18px;
 }
