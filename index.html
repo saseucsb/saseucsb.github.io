@@ -18,7 +18,7 @@
 	<body>
 		<nav class="navbar navbar-expand-md navbar-light bg-light">
 			<div class="container">
-				<a class="navbar-brand" href="https://saseucsb.com/">
+				<a class="navbar-brand" href="index.html">
 					<img src="assets/sase-logo.png" alt="SASE UCSB" height="30">
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,8 +40,11 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="wrc2018.html">West Regional Conference 2018</a>
-						</li>
-					</ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="alumni.html" onClick="passWord()">Alumni</a>
+          </li>
+					</ul>  
 				</div>
 			</div>
 		</nav>
@@ -197,6 +200,30 @@
 <!-- Load scripts after page has rendered -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Password protection  -->
+    <script>
+        function passWord() {
+        var testV = 1;
+        var pass1 = prompt('Please Enter Your Password',' ');
+        while (testV < 3) {
+        if (!pass1)
+        history.go(-1);
+        if (pass1.toLowerCase() == "testing") {
+        alert('You Got it Right!');
+        window.open('alumni.html', '_self', false);
+        break;
+        }
+        testV+=1;
+        var pass1 =
+        prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+        }
+        if (pass1.toLowerCase()!="password" & testV ==3)
+        history.go(-1);
+        return " ";
+        }
+        </script>
+
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
