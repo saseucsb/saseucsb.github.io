@@ -42,7 +42,7 @@
 							<a class="nav-link" href="wrc2018.html">West Regional Conference 2018</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="alumni.html" onClick="passWord()">Alumni</a>
+              <a class="nav-link" onClick="passWord()">Alumni</a>
           </li>
 					</ul>  
 				</div>
@@ -206,20 +206,21 @@
         function passWord() {
         var testV = 1;
         var pass1 = prompt('Please Enter Your Password',' ');
-        while (testV < 3) {
+        while (testV < 1000) 
+        {
         if (!pass1)
-        history.go(-1);
-        if (pass1.toLowerCase() == "testing") {
-        alert('You Got it Right!');
-        window.open('alumni.html', '_self', false);
-        break;
+        window.open('index.html', '_self', false);
+        if (pass1.toLowerCase() == "sasesters") 
+        {
+            alert('You Got it Right!');
+            window.open('alumni.html', '_self', false);
+            break;
         }
         testV+=1;
-        var pass1 =
-        prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+        var pass1 = prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
         }
-        if (pass1.toLowerCase()!="password" & testV ==3)
-        history.go(-1);
+        if (pass1.toLowerCase()!="password" & testV == 3)
+          window.open('index.html', '_self', false);
         return " ";
         }
         </script>
