@@ -1,0 +1,365 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="assets/wrc2018/style.css">
+		<title>2018 SASE West Regional Conference</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="assets/sase-logo.png" alt="SASE UCSB" height="30">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#schedule">Schedule</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#workshops">Workshops</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#accommodations">Accommodations</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sponsors">Sponsors</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<main role="main">
+			<div class="jumbotron">
+				<div class="container text-white">
+					<h1 class="display-3 text-uppercase font-weight-bold">2018 West Regional Conference</h1>
+					<hr class="jumbotron-hr">
+					<p class="lead"><b class="text-uppercase">University of California, Santa Barbara</b><br />February 10, 2018 | Corwin Pavilion</p>
+					<a class="btn btn-primary btn-lg" href="https://www.eventbrite.com/e/sase-west-regional-conference-tickets-39604486084" target="_blank">Register Now</a>
+				</div>
+			</div>
+			<div class="about-sase">
+				<!--div class="pic-about">  </div--> <img class="text-right pic-about"  src="assets/wrc2018/aboutsase.jpg" alt="About Sase">
+				<div class="text-about" ><h3 class="text-center"><a id="about">About SASE Regionals</a></h3>
+				<p class="lead pt-2">The 2018 SASE West Regional Conference is an event which invites company speakers to host professional development workshops and provides networking opportunities to members across the West Region.</p>
+				<p>The 2018 West Regional Conference theme &mdash; <strong>"Empowering You to Act"</strong> &mdash; aims to inspire students to motivate themselves and continue succeeding to their maximum potential. The event will not only prepare students for success for their careers, but also provide a hand to the community through local charities and community service.</p>
+				</div>
+			</div>
+			<div class="bg-schedule text-white">
+				<div class="container pt-3 pb-4">
+					<h3 class="pt-4 text-center"><a id="schedule">Schedule</a></h3>
+					<div class="row">
+						<div class="col text-center">
+							<strong>AM</strong>
+						</div>
+						<div class="col text-center text-dark">
+							<strong>PM</strong>
+						</div>
+					</div>
+					<div class="row py-3">
+						<div class="col h1 text-right">
+							8:15 - 9:30
+						</div>
+						<div class="col">
+							Registration / Check-In / Networking
+						</div>
+						<div class="col h1 text-right text-dark">
+							12:15 - 1:40
+						</div>
+						<div class="col text-dark">
+							Lunch / Keynote / Performance
+						</div>
+					</div>
+					<div class="row py-3">
+						<div class="col h1 text-right">
+							9:00 - 9:55
+						</div>
+						<div class="col">
+							Breakfast / Opening Speeches
+						</div>
+						<div class="col h1 text-right text-dark">
+							1:50 - 2:45
+						</div>
+						<div class="col text-dark">
+							Workshop III
+						</div>
+					</div>
+					<div class="row py-3">
+						<div class="col h1 text-right">
+							10:05 - 11:00
+						</div>
+						<div class="col">
+							Workshop I
+						</div>
+						<div class="col h1 text-right text-dark">
+							2:55 - 3:50
+						</div>
+						<div class="col text-dark">
+							Workshop IV
+						</div>
+					</div>
+					<div class="row py-3">
+						<div class="col h1 text-right">
+							11:10 - 12:05
+						</div>
+						<div class="col">
+							Workshop II
+						</div>
+						<div class="col h1 text-right text-dark">
+							4:00 - 4:30
+						</div>
+						<div class="col text-dark">
+							Closing Statements / SASE Nationals
+						</div>
+					</div>
+					<div class="row py-3">
+						<div class="col h1 text-right">
+
+						</div>
+						<div class="col">
+
+						</div>
+						<div class="col h1 text-right text-dark">
+							4:30 - 6:00
+						</div>
+						<div class="col text-dark">
+							Networking / Company Suites
+						</div>
+					</div>
+					<h4 class="text-center">Concurrently</h4>
+					<div class="row pb-3">
+						<div class="col h1 text-right">
+							11:10 - 12:10
+						</div>
+						<div class="col">
+							Resume Critiques
+						</div>
+						<div class="col h1 text-right text-dark">
+							4:00 - 4:30
+						</div>
+						<div class="col text-dark">
+							Resume Critiques
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container py-4 text-center">
+				<h3 class="text-center"><a id="workshops">Workshops</a></h3>
+				<div class="row slideanim">
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/PhamVu.jpg" alt="Vu Pham"/>
+						<h4>Vu Pham</h4>
+						<p class="subtitle">Spectrum Knowledge</p>
+						<p>Keynote</p>
+					</div>
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/CarlinShane.jpg" alt="Shane Carlin"/>
+						<h4>Shane Carlin</h4>
+						<p class="subtitle">Asian Student Achievement</p>
+						<p>Keynote</p>
+					</div>
+				</div>
+				<!-- Workshop 1 -->
+				<div class="row slideanim">
+					<div class="col-sm-4">
+						<img class="img-circle" src="assets/wrc2018/headshots/BernalesMarcus.jpg" alt="Marcus Bernales"/>
+						<h4>Marcus Bernales</h4>
+						<p class="subtitle">Procore</p>
+						<p>A Tale of Three Technologists - The Hustle at 25</p>
+					</div>
+					<div class="col-sm-4">
+						<img class="img-circle" src="assets/wrc2018/headshots/FangAlexander.jpg" alt="Alexander Fang"/>
+						<h4>Alexander Fang</h4>
+						<p class="subtitle">Juniper Networks</p>
+						<p>Start Up: From Zero to Ten</p>
+					</div>
+					<div class="col-sm-4">
+						<img class="img-circle" src="assets/wrc2018/headshots/TakaharaMichael.jpg" alt="Michael Takahara"/>
+						<h4>Michael Takahara</h4>
+						<p class="subtitle">UCSB Health & Wellness</p>
+						<p>The Art of Listening</p>
+					</div>
+				</div>
+				<div class="row slideanim">
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/EulogioRaul.jpg" alt="Eva"/>
+						<h4>Raul Eulogio</h4>
+						<p class="subtitle">Inertia7</p>
+						<p>Inertia7: Building a Social Platform for Data & Computer Hackers</p>
+					</div>
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/CamposDavid.jpg" alt="David A. Campos"/>
+						<h4>David A. Campos</h4>
+						<p class="subtitle">Inertia7</p>
+						<p>Inertia7: Building a Social Platform for Data & Computer Hackers</p>
+					</div>
+				</div>
+				<div class="row slideanim">
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/LinJason.jpg" alt="Jason Lin"/>
+						<h4>Jason Lin</h4>
+						<p class="subtitle">Northrop Grumman</p>
+						<p>Confessions of a Recruiter</p>
+					</div>
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/JimenezEdward.jpg" alt="Edward Jimenez"/>
+						<h4>Edward Jimenez</h4>
+						<p class="subtitle">Northrop Grumman</p>
+						<p>Confessions of a Recruiter</p>
+					</div>
+				</div>
+				<!-- Workshop 2 -->
+				<div class="row slideanim">
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/FulkChad.jpg" alt="Chad Fulk"/>
+						<h4>Chad Fulk</h4>
+						<p class="subtitle">Raytheon</p>
+						<p>Effective Engineering</p>
+					</div>
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/ZedeliusClaire.jpg" alt="Claire Zedelius"/>
+						<h4>Claire Zedelius</h4>
+						<p class="subtitle">UCSB Psychological & Brain Sciences</p>
+						<p>Towards a Growth Mindset of Personal Development</p>
+					</div>
+				</div>
+				<!-- Workshop 3 -->
+				<div class="row slideanim">
+					<div class="col-sm-4">
+						<img class="img-circle" src="assets/wrc2018/headshots/BrarNavjot.jpg" alt="Navjot Brar"/>
+						<h4>Navjot Brar</h4>
+						<p class="subtitle">Carpe Data/Product</p>
+						<p>Catalyzing Innovation</p>
+					</div>
+					<div class="col-sm-4">
+						<img class="img-circle" src="assets/wrc2018/headshots/ShellScott.jpg" alt="M. Scott Shell"/>
+						<h4>M. Scott Shell</h4>
+						<p class="subtitle">UCSB Chemical Engineering</p>
+						<p>Engineering an Exceptional Talk: Systematic Strategies to Interest, Educate, and Inspire</p>
+					</div>
+					<div class="col-sm-4">
+						<img class="img-circle" src="assets/wrc2018/headshots/FoltzKathleen.jpg" alt="Eva"/>
+						<h4>Kathleen Foltz</h4>
+						<p class="subtitle">UCSB MCDB</p>
+						<p>BioX - Peeling Away the Bio Major Label</p>
+					</div>
+				</div>
+				<!-- Workshop 4 -->
+				<div class="row slideanim">
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/YoganRyan.jpg" alt="Ryan Yogan"/>
+						<h4>Ryan Yogan</h4>
+						<p class="subtitle">Procore</p>
+						<p>We need you more! Interviewing in the Tech Industry</p>
+					</div>
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/RBasilio.jpg" alt="Alex"/>
+						<h4>Ralph Basilio</h4>
+						<p class="subtitle">Caltech-JPL</p>
+						<p>NASA Remote Sensing</p>
+					</div>
+				</div>
+				<!-- Panel -->
+				<div class="row slideanim">
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/SandovaDanielle.jpg" alt="Danielle Sandoval"/>
+						<h4>Danielle Sandoval</h4>
+						<p class="subtitle">Panelist</p>
+						<p>Panel: Startup Company</p>
+					</div>
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/Joe O_Brien.jpg" alt="Eva"/>
+						<h4>Joe O'Brien</h4>
+						<p class="subtitle">Panelist</p>
+						<p>Panel: Startup Company</p>
+					</div>
+				</div>
+				<div class="row slideanim">
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/TranAndrew.jpg" alt="Andrew Tran"/>
+						<h4>Andrew Tran</h4>
+						<p class="subtitle">Panelist</p>
+						<p>Panel: Perspectives from Graduate Students and Alumni</p>
+					</div>
+					<div class="col-sm-6">
+						<img class="img-circle" src="assets/wrc2018/headshots/BattsengelTsatsa.jpg" alt="Tsatsa Battsengel"/>
+						<h4>Tsatsa Battsengel</h4>
+						<p class="subtitle">Panelist</p>
+						<p>Panel: Perspectives from Graduate Students and Alumni</p>
+					</div>
+				</div>
+			</div>
+			<div class="bg-accomodations">
+				<div class="container py-4">
+					<h3 class="pt-4 text-center"><a id="accommodations">Accommodations</a></h3>
+					<p>SASE UCSB has partnered with Kimpton Goodland to provide accommodations for you during your stay. We have pre-negotiated a rate of $159 per night* for the nights of February 9th and 10th. Includes complimentary wifi, parking, and coffee/tea service from 6-10 AM. To book, please either call the number listed below or use the link provided to book online. When booking over the phone, reference either SASE UCSB or booking code E99.</p>
+					<a class="btn btn-outline-primary" href="tel://18005467866">1-800-KIMPTON</a> <a class="btn btn-primary" href="https://www.ihg.com/kimptonhotels/hotels/us/en/find-hotels/hotel/rooms?qCiMy=12018&qCiD=9&qCoMy=12018&qCoD=11&qAdlt=1&qChld=0&qRms=1&qRtP=6CBARC&qIta=99801505&qGrpCd=E99&qSlH=SBAGG&qAkamaiCC=US&qSrt=sBR&qBrs=ic.ki.ul.in.cp.vn.hi.ex.cv.rs.cw.sb.ma&qWch=0&qSmP=1" target="_blank">Book Online</a><br /><br />
+					<small>* Excludes taxes and other fees. This rate is good through <strong>January 19, 2018, 5 PM PST</strong> (or until 50 reservations have been made).</small>
+				</div>
+				<div class="container py-4">
+					<h4>Transportation / Parking</h4>
+					<p class="pb-4">Our team is hard at work sorting these details out. Please check back again soon for more information.</p>
+				</div>
+			</div>
+			<div class="container py-4">
+				<h3 class="text-center"><a id="sponsors">Sponsors</a></h3>
+				<p>We thank our sponsors for making this event possible.</p>
+				<div class="row">
+					<div class="col text-center">
+						<img class="img_sponsor" src="assets/wrc2018/sponsors/sponsor_raytheon.png" alt="Raytheon">
+						<img class="img_sponsor" src="assets/wrc2018/sponsors/sponsor_procore.png" alt="Procore">
+						<img class="img_sponsor" src="assets/wrc2018/sponsors/sponsor_ng.png" alt="Northrop Grumman">
+						<img class="img_sponsor" src="assets/wrc2018/sponsors/sponsor_COE.png" alt="UCSB Engineering">
+						<img class="img_sponsor" src="assets/wrc2018/sponsors/sponsor_NASA.png" alt="NASA-JPL">
+						<img class="img_sponsor" src="assets/wrc2018/sponsors/sponsor_COL.png" alt="UCSB Letters & Science">
+						<img class="img_sponsor" src="assets/wrc2018/sponsors/sponsor_Guayaki.png" alt="Guayaki">
+						<img class="img_sponsor" src="assets/wrc2018/sponsors/sponsor_sonos.png" alt="Sonos">
+					</div>
+				</div>
+			</div>
+			<div class="bg-map py-4">
+				<h3 class="text-center"><a>Map</a></h3>
+				 <div class="col text-center">
+				 <img src="assets/wrc2018/mapgray.png" alt="map" height="auto;" width="100%">
+				 </div>
+			</div>
+			<div class="bg-dark text-white">
+				<div class="container py-4">
+					<div class="row">
+						<div class="col-4">
+							<a class="text-white text-underline" href="https://saseucsb.com/"><strong>Back to SASE UCSB</strong></a><br />
+							<br />
+							<strong>2018 SASE West Regional Conference</strong><br />
+							February 10, 2018<br />
+						</div>
+						<div class="col-4">
+							<strong>University of California, Santa Barbara</strong><br />
+							Corwin Pavilion<br />
+							<br />
+							<a class="btn btn-primary" href="https://www.google.com/maps/place/Corwin+Pavillion/@34.4116289,-119.8491773,17z/data=!3m1!4b1!4m5!3m4!1s0x80e93f6dfefa0271:0x55c533306679b4f6!8m2!3d34.4116245!4d-119.8469886" target="_blank">Directions</a>
+						</div>
+						<div class="col-4">
+							<strong>Connect with Us</strong><br />
+							<i class="fa fa-facebook" aria-hidden="true"></i> <a class="text-white" href="https://www.facebook.com/SASEUCSB/" target="_blank">Facebook (SASEUCSB)</a><br />
+							<i class="fa fa-instagram" aria-hidden="true"></i> <a class="text-white" href="https://www.instagram.com/saseucsb/" target="_blank">Instagram (@saseucsb)</a><br />
+							<br />
+							Copyright &copy; 2017 SASE UCSB. <br/>
+							Website created by Jayleen Li, Alexander Wu, & Ryan Tse
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- Load scripts after page has rendered -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>
