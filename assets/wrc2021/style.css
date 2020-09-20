@@ -1,0 +1,116 @@
+/* using 2018 as base */
+
+.jumbotron {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0.4)
+	), url("banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0;
+	margin-bottom: 0px !important;
+}
+
+.jumbotron-hr {
+	width: 30% !important;
+	border-top: 10px solid white;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.text-workshops {
+	color: #ffffff;
+}
+
+.text-about {
+	padding: 20px;
+}
+
+.container>.navbar-collapse {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.navbar-fixed-top, .navbar-collapse {
+	max-height: 340px;
+}
+.navbar-collapse.in {
+	overflow-y: auto;
+}
+.collapse.in {
+	display: block;
+}
+.navbar-collapse {
+	padding-right: 15px;
+	padding-left: 15px;
+	overflow-x: visible;
+	border-top: 1px solid transparent;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+}
+
+@media screen and (max-width: 885px) {
+	.pic-about {
+		float: left;
+		height: 50% !important;
+		margin-right: 30px;
+	}
+}
+
+@media screen and (max-width: 985px) {
+	.col-sm-4 {
+		text-align: center !important;
+		margin: auto;
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		flex: 0 0 100%;
+		max-width: 100% !important;
+	}
+}
+
+.about-sase {
+	height: 50%;
+}
+.pic-about {
+	float: left;
+	height: 100%;
+	margin-right: 30px;
+}
+
+.img_sponsor {
+	max-width:  300px;
+	max-height: 300px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+}
+
+.bg-schedule {
+	background-color: rgb(61, 155, 233);
+}
+
+.bg-accomodations {
+	background-color: rgb(213, 229, 244);
+}
+.bg-map {
+	background-color: rgb(242, 242, 242);
+}
+
+.bg-workshops {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	height: 600px;
+	background-image:  url('workshops.jpg');
+	background-size: 100% 100%;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.subtitle {
+	color: #46A606;
+	font-size: 18px;
+}
