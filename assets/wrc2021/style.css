@@ -58,7 +58,7 @@
 }
 
 @media screen and (max-width: 985px) {
-	.col-sm-4 {
+	.col-sm-6 {
 		text-align: center !important;
 		margin: auto;
 		position: relative;
@@ -89,7 +89,8 @@
 }
 
 .bg-schedule {
-	background-color: rgb(61, 155, 233);
+	background-color: rgb(236, 236, 236);
+	background: url('wavesbg.png') no-repeat center center fixed;
 }
 
 .bg-accomodations {
@@ -107,9 +108,31 @@
 	background-size: 100% 100%;
 }
 
+.overlay {
+	background-color: rgba(0,85,199, 0.4);
+	max-width: 80%;
+	border-right: 50px ridge rgba(0,85,199, 0.2);
+	border-left: 50px ridge rgba(0,85,199, 0.2);
+}
+
 .schedule {
 	width: 100%;
-	max-width: 700px;
+	max-width: 825px;
+	background-color: rgb(236, 236, 236);
+}
+
+.time {
+	text-align: right;
+	color: rgb(0,74,173);
+	font-weight: bold;
+	padding-bottom: 0.75rem;
+}
+
+.event {
+	text-align: left;
+	border-left: 4px solid rgb(0,74,173);
+	padding-bottom: 0.75rem;
+	font-style: italic;
 }
 
 .img-circle {
@@ -120,3 +143,5 @@
 	color: #46A606;
 	font-size: 18px;
 }
+
+		
