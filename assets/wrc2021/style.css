@@ -1,5 +1,3 @@
-/* using 2018 as base */
-
 .jumbotron {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.4),
@@ -24,7 +22,17 @@
 }
 
 .text-about {
-	padding: 20px;
+	padding: 0;
+}
+
+.about-sase {
+	/* height: 50%; */
+}
+
+.pic-about {
+	float: left;
+	/* height: 100%; */
+	margin: 30px 30px 0 0;
 }
 
 .container>.navbar-collapse {
@@ -68,15 +76,6 @@
 		flex: 0 0 100%;
 		max-width: 100% !important;
 	}
-}
-
-.about-sase {
-	height: 50%;
-}
-.pic-about {
-	float: left;
-	height: 100%;
-	margin-right: 30px;
 }
 
 .img_sponsor {
@@ -143,5 +142,3 @@
 	color: #46A606;
 	font-size: 18px;
 }
-
-		
