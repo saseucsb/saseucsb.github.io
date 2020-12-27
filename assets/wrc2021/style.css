@@ -78,6 +78,12 @@
 	}
 }
 
+.img_merch {
+	max-width: 300px;
+	max-height: 300px;
+	padding: 20px;
+}
+
 .img_sponsor {
 	max-width:  300px;
 	max-height: 300px;
@@ -92,11 +98,8 @@
 	background: url('wavesbg.png') no-repeat center center fixed;
 }
 
-.bg-accomodations {
+.bg-accomodations,.bg-premerch {
 	background-color: rgb(213, 229, 244);
-}
-.bg-map {
-	background-color: rgb(242, 242, 242);
 }
 
 .bg-workshops {
