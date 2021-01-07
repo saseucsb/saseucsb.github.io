@@ -84,6 +84,17 @@
 	padding: 20px;
 }
 
+.img_premerch {
+	max-width: 200px;
+	max-height: 200px;
+	padding: 20px;
+}
+
+.pre-sale {
+	margin: 0 auto;
+	text-align: center;
+}
+
 .img_sponsor {
 	max-width:  300px;
 	max-height: 300px;
@@ -112,7 +123,7 @@
 
 .overlay {
 	background-color: rgba(0,85,199, 0.4);
-	max-width: 80%;
+	max-width: 100%;
 	border-right: 50px ridge rgba(0,85,199, 0.2);
 	border-left: 50px ridge rgba(0,85,199, 0.2);
 }
@@ -120,7 +131,8 @@
 .schedule {
 	width: 100%;
 	max-width: 825px;
-	background-color: rgb(236, 236, 236);
+	background-color: rgba(236, 236, 236, 0.8);
+	margin: 0 auto;
 }
 
 .time {
