@@ -157,3 +157,7 @@
 	color: #46A606;
 	font-size: 18px;
 }
+
+.item-name {
+	font-weight: bold;
+}
