@@ -161,3 +161,16 @@
 .item-name {
 	font-weight: bold;
 }
+
+.profile {
+	display: inline-block;
+}
+
+.planner {
+	width: 200px;
+	margin: 10px;
+}
+
+.footer {
+	margin-top: 70px;
+}
